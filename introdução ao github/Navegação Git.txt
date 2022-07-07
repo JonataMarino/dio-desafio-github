@@ -1,0 +1,41 @@
+comandos básicos de navegação Windows/Linux
+
+-cd  /  -cd	(Navegar entre as pastas pelo terminal)
+
+-dir  /  ls	(listar arquivos contidos na pasta atual)
+
+mkdir / mkdir	(criar nova pasta)
+
+del/rmdir  /  rm/rf	(excluir pasta)
+
+
+//
+abrir ientificador de chave publica ssh pelo comando de terminal
+
+cat id_ed25519.pub 
+//
+
+
+//
+validar a chave
+
+eval $(ssh-agent -s)
+
+ssh-add id_ed25519
+//
+
+
+//mover arquivos
+
+mv arquivo.ar./novapasta
+//
+
+// apagar email/usuario
+
+git config --global --unset user.email
+git config --global --unset user.name
+
+
+//atribuir email/usuario
+git config --global -- user.email "email@email.com"
+git config --global -- user.name "name"
