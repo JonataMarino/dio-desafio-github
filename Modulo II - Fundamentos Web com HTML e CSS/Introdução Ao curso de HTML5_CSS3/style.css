@@ -1,0 +1,135 @@
+body{
+    background: #f7f7f7;
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
+}
+
+
+.photo{
+    border: 1px solid #505050;
+    border-radius: 50px;
+}
+#title, .subtitle, .post_title {
+    color: #505050;
+}
+
+#title{
+   font-size: 40px;
+   text-transform: uppercase; 
+}
+
+a{
+    text-decoration: line-through;
+    color: #505050;
+}
+
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post{
+    background: #fff;
+    padding: 15px;
+    border: 3px solid #505050;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.post_image{
+   margin-bottom: 15px;
+   width: 100%; 
+}
+
+.contact_list{
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contact_list li a{
+    text-decoration: none;
+}
+
+
+/*
+.post{
+    padding: 10px 5px;
+}
+
+.post{
+    padding: 15px, 10px 5px 0;
+}
+
+.post{
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 0;
+}
+
+.post {
+   background-color: green; //background-color: green; // background: #008000
+   background-image: url("img.png");
+   background-position: top;
+}
+
+.post{
+    border 3px solid blue;
+    border top: 2px dotted green;
+    border right 4px dashed pink;
+}
+
+.post {
+    border-tp: 2px dotted green;
+    border-right: 4px dashed pink;
+    border-bottom: 1px solid purple;
+    border-left: 4px dotted cyan;
+}
+
+.post {
+    border-width: 3px;
+    border-color: #505050;
+    border-style: solid;
+}
+
+.post {
+    border-top-width: 3px;
+    border-top-color: blue;
+    border-top-style: solid;
+}
+
+    border-radius: 10px // 50% 
+    utilizado para arredondar as bordas, pode-se utilizar como um contexto geral ou especificando
+    cada lateral a ser arredondada (10% 20% 15% 22%); Para deixar um elemento arredondado basta
+    adicionar um border-radius de 50% 
+   
+
+    LISTAS
+
+
+ul {
+    list-style-type: square; //auterando simbolo para quadrado
+}
+
+ol {
+    list-style-type: upper-roman; // auterando para algarismos romanos maiusculos 
+}
+
+ul {
+    list-style-type: "\1F44D"; //auterando para símbolo específico (emoji)
+}
+ul {
+    list-style-image: url("rockt.png"); 
+}
+*/
