@@ -1,3 +1,4 @@
+"use strict";
 /* function soma(a: number, b: number){
     return a+b;
 }
@@ -35,7 +36,7 @@ const animal: IDomestico = {
     nome: 'cachorro',
    porte: 'medio',
     tipo: 'terrestre',
-    visaoNoturna: false,    
+    visaoNoturna: false,
 }
 
 // interface ICanino extends IAnimal{
@@ -69,7 +70,8 @@ const felino : IFelino = {
     domestico: false,
     //executarRugido: (alturaEmDecibeis)=>(`${alturaEmDecibeis}dB`)
 } */
-
+exports.__esModule = true;
+exports.numero = void 0;
 /* const input = document.getElementById('input') as HTMLInputElement;
 //input.value
 input.addEventListener('input', (event)=> {
@@ -77,37 +79,31 @@ const i = event.currentTarget as HTMLInputElement;
 console.log(i.value)
     //console.log(event.currentTarget. );
 }) */
-
 //Generic types
-
 /* function adicionaApendiceALista(array, valor){
     return array.map(item => item + valor);
 }
 
 
 adicionaApendiceALista([1, 2, 3], 1) */
-
 /* function adicionaApendiceALista<NaoSei>(array: any[], valor: NaoSei){
     return array.map(item => item + valor);
 }
 
 
 adicionaApendiceALista([1, 2, 3], 1); */
-
 /* function adicionaApendiceALista<T>(array: any[], valor: T){
     return array.map(item => item + valor);
 }
 
 
 adicionaApendiceALista(['A', 'B', 'C'], 'd'); */
-
 /* function adicionaApendiceALista<T>(array: T[], valor: T){
     return array.map(() => valor);
 }
 
 
 adicionaApendiceALista(['A', 'B', 'C'], 'd'); */
-
 /* interface IUsuario {
     id: string,
     email: string,
@@ -115,7 +111,7 @@ adicionaApendiceALista(['A', 'B', 'C'], 'd'); */
 
 interface IAdmin extends IUsuario{
     cargo: 'gerente' | 'coordenador' | 'supervisor',
-} 
+}
 
 function redirecione(usuario: IUsuario | IAdmin) {
 if('cargo' in usuario) {
@@ -125,14 +121,11 @@ if('cargo' in usuario) {
 
 //redirecionar para a área de usuário
 } */
-/* 
+/*
 function adicionaApendiceALista<T>(array: T[], valor: T){
     return array.map(() => valor);
 } */
-
-
 /* adicionaApendiceALista(['A', 'B', 'C'], 'd'); */
-
 /* interface IUsuario {
     id: string,
     email: string,
@@ -147,7 +140,6 @@ if('cargo' in usuario) {
 
 //redirecionar para a área de usuário
 }   */
-
 /* interface IUsuario {
     id: string,
     email: string,
@@ -162,10 +154,6 @@ if(usuario.cargo) {
 //redirecionar para a área do usuário
 
 }   */
-
-
-
-
 /* interface ICachorro{
     nome: string,
     idade: number,
@@ -189,7 +177,6 @@ class  meuCachorro implements CachorroSomenteLeitura  {
 }
 
 const cao = new meuCachorro('Padora', 8); */
-
 /* import $ from 'jquery';
 
 $.fn.extend({
@@ -199,5 +186,4 @@ $.fn.extend({
 });
 
 $('body').novaFuncao(); */
-
-export const numero = 2;
+exports.numero = 2;
