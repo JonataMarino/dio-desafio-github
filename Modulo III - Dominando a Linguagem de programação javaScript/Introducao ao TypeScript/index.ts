@@ -208,11 +208,13 @@ interface IPessoa{
     nacionalidade: string;
 }
 
-interface IBrasileiro extends Omit<IPessoa, 'nacionalidade'>{
+interface IBrasileiro extends Omit<IPessoa, 'nacionalidade'> {
 
 
 }
 
-const Brasileiro: IBrasileiro {
+const Brasileiro: IBrasileiro = {
+     nome: 'João Silva',
+     idade: 28;
     
 }
