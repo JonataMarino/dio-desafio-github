@@ -215,6 +215,6 @@ interface IBrasileiro extends Omit<IPessoa, 'nacionalidade'> {
 
 const Brasileiro: IBrasileiro = {
      nome: 'João Silva',
-     idade: 28;
+     idade: 28,
     
 }
